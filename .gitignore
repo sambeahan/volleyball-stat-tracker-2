@@ -1,5 +1,2 @@
-*
-!*.cpp
-!*.h
-!README.md
-!.vscode
+build
+.vscode
