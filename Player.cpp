@@ -23,3 +23,6 @@ int Player::get_stat(string stat) {
 void Player::increment_stat(string stat, int amount) {
     stats[stat] += amount;
 }
+
+bool Player::get_on_court() { return on_court; }
+void Player::set_on_court(bool on) { on_court = on; }

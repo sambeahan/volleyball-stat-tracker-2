@@ -10,6 +10,7 @@ class Player {
     private:
         string _name;
         map<string, int> stats;
+        bool on_court;
     public:
         Player(string name);
         Player();
@@ -19,6 +20,9 @@ class Player {
 
         int get_stat(string stat);
         void increment_stat(string stat, int amount);
+
+        bool get_on_court();
+        void set_on_court(bool on);
 };
 
 #endif
