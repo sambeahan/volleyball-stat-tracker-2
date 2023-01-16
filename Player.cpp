@@ -2,6 +2,7 @@
 
 Player::Player(string name) {
     _name = name;
+    on_court = false;
 
     stats.insert(std::pair<std:: string, int>("Kills", 0));
     stats.insert(std::pair<std:: string, int>("Total attacks", 0));
